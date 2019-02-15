@@ -1,0 +1,61 @@
+print ("excersise 1")
+
+name = "St.Robert Catholic High School"
+address = "8101, Leslie St."
+city = "Thornhill"
+province = "ON"
+postal_code = "L3T 7P4"
+telephone = "905-8894-982"
+
+print(name)
+print(address)
+print(city + "," + province)
+print(f"{city},{province}")
+print("{},{}" .format(city,province))
+print(postal_code)
+print(telephone)
+
+print ("excersise 2")
+
+print ("What is your name?")
+name = input()
+print ("Hello,", name)
+
+print ("excersise 3")
+
+print("What is the length of your room in meters?")
+length = float(input())
+print("What is the width of your room in meters?")
+width = float(input())
+area = length * width
+print ("The area of your room is", area, "meters")
+print("What is the length of your field in feet?")
+length = float(input())
+print("What is the width of your field in feet?")
+width = float(input())
+area = (length * width/43560)
+print ("The area of your field is", area, "acres")
+
+print ("excersise 4")
+
+print("What is the length of your room in meters?")
+length = float(input())
+print("What is the width of your room in meters?")
+width = float(input())
+area = length * width
+print ("The area of your room is", area, "meters")
+print("What is the length of your field in feet?")
+length = float(input())
+print("What is the width of your field in feet?")
+width = float(input())
+area = (length * width/43560)
+print ("The area of your field is", area, "acres")
+
+print ("excersise 5")
+
+print("How many bottles are you returning that are equal or less than 1 litre size?")
+small_bottles = int(input())
+print("How many bottles are you returning that are greater than 1 litre size?")
+big_bottles = int(input())
+refund = small_bottles * 0.1 + big_bottles * .25
+print ("Your refund is", refund, "dollars")
