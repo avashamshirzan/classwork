@@ -12,8 +12,16 @@ arcade.start_render()
 
 arcade.draw_xywh_rectangle_filled(0, 0, 640, 100, arcade.color.GREEN)
 arcade.draw_circle_filled(540, 380, 50, arcade.color.YELLOW_ORANGE)
+
 arcade.draw_triangle_filled(200, 200, 160, 125, 240, 125, arcade.color.CADMIUM_GREEN)
 arcade.draw_xywh_rectangle_filled(190, 50, 20, 75, arcade.color.BROWN)
+
+arcade.draw_triangle_filled(440, 200, 400, 125, 480, 125, arcade.color.CADMIUM_GREEN)
+arcade.draw_xywh_rectangle_filled(430, 50, 20, 75, arcade.color.BROWN)
+
+arcade.draw_triangle_filled(515, 200, 475, 125, 555, 125, arcade.color.CADMIUM_GREEN)
+arcade.draw_xywh_rectangle_filled(505,50,c20, 75, arcade.color.BROWN)
+
 # End drawin
 arcade.finish_render()
 arcade.run()
