@@ -1,0 +1,86 @@
+#if statements 34, 35, 36, 37, 48
+
+#34
+if num % 2 == 0:
+  print ("even")
+else:
+  print ("odd")
+  
+ #35
+age = float(input("enter dog age in human years: "))
+
+if age < 0.0:
+  print("error")
+else:
+  if age <= 2.0:
+    dog_age = age * 10.5
+  else:
+    dog_age = 21.0 + ((age-2) * 4)
+print (f"your dog is {dog_age} years old in dog years")
+
+#36
+letter = input("letter: ")
+if letter == "a":
+  print ("this is a vowel")
+elif letter == "e":
+ print ("this is a vowel")
+elif letter == "i":
+ print ("this is a vowel")
+elif letter == "o":
+ print ("this is a vowel")
+elif letter == "u":
+ print ("this is a vowel")
+elif letter == "y":
+ print ("this is sometimes a vowel and sometimes a consonant")
+else:
+  print ("this is a consonant")
+
+#37
+sides = int(input("number of sides: "))
+if sides == 3:
+  print ("this is a triangle")
+elif sides == 4:
+ print ("this is a square")
+elif sides == 5:
+ print ("this is a pentagon")
+elif sides == 6:
+ print ("this is a hexagon")
+elif sides == 7:
+ print ("this is a heptagon")
+elif sides == 8:
+ print ("this is a octagon")
+elif sides == 9:
+ print ("this is a nonagon")
+elif sides == 10:
+ print ("this is a decagon")
+else:
+  print ("error")
+ 
+#48
+year = int(input("what year were you born? "))
+zodiac = year % 12
+
+if zodiac == 9:
+  print ("your chinese zodiac sign is the snake")
+elif zodiac == 8:
+  print ("your chinese zodiac sign is the dragon")
+elif zodiac == 10:
+  print ("your chinese zodiac sign is the horse")
+elif zodiac == 11:
+  print ("your chinese zodiac sign is the sheep")
+elif zodiac == 0:
+  print ("your chinese zodiac sign is the monkey")
+elif zodiac == 1:
+  print ("your chinese zodiac sign is the rooster")
+elif zodiac == 2:
+  print ("your chinese zodiac sign is the dog")
+elif zodiac == 3:
+  print ("your chinese zodiac sign is the pig")
+elif zodiac == 4:
+  print ("your chinese zodiac sign is the rat")
+elif zodiac == 5:
+  print ("your chinese zodiac sign is the ox")
+elif zodiac == 6:
+  print ("your chinese zodiac sign is the tiger")
+elif zodiac == 7:
+  print ("your chinese zodiac sign is the hare")
